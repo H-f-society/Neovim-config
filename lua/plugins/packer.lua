@@ -83,13 +83,16 @@ return require('packer').startup(function()
     use 'voldikss/vim-floaterm' -- 浮动窗口
     use 'akinsho/toggleterm.nvim'
 
+    -- use 'glepnir/dashboard-nvim'
+    use 'nvimdev/dashboard-nvim'
     use {
-        'glepnir/dashboard-nvim', -- neovim启动页
+        -- 'glepnir/dashboard-nvim', -- neovim启动页
+        'nvimdev/dashboard-nvim',
         event = 'VimEnter',
         requires = { 'nvim-tree/nvim-web-devicons' }
     }
 
-    -- 代码块对齐线
+    -- 代码块对齐线 
     use "lukas-reineke/indent-blankline.nvim"
     use 'Darazaki/indent-o-matic'
     use 'nmac427/guess-indent.nvim'

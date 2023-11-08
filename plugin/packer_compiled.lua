@@ -236,6 +236,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\root\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-web-devicons",
     url = "https://github.com/nvim-tree/nvim-web-devicons"
   },
+  ["onedarkpro.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\root\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\onedarkpro.nvim",
+    url = "https://github.com/olimorris/onedarkpro.nvim"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "C:\\Users\\root\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\packer.nvim",
@@ -275,6 +280,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\root\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-which-key",
     url = "https://github.com/liuchengxu/vim-which-key"
+  },
+  vimspector = {
+    loaded = true,
+    path = "C:\\Users\\root\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vimspector",
+    url = "https://github.com/puremourning/vimspector"
   }
 }
 
