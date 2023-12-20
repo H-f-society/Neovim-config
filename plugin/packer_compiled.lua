@@ -115,11 +115,9 @@ _G.packer_plugins = {
     url = "https://github.com/nvim-zh/colorful-winsep.nvim"
   },
   ["dashboard-nvim"] = {
-    loaded = false,
-    needs_bufread = false,
-    only_cond = false,
-    path = "C:\\Users\\root\\AppData\\Local\\nvim-data\\site\\pack\\packer\\opt\\dashboard-nvim",
-    url = "https://github.com/glepnir/dashboard-nvim"
+    loaded = true,
+    path = "C:\\Users\\root\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\dashboard-nvim",
+    url = "https://github.com/nvimdev/dashboard-nvim"
   },
   ["friendly-snippets"] = {
     loaded = true,
@@ -289,13 +287,6 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
-vim.cmd [[augroup packer_load_aucmds]]
-vim.cmd [[au!]]
-  -- Event lazy-loads
-time([[Defining lazy-load event autocommands]], true)
-vim.cmd [[au VimEnter * ++once lua require("packer.load")({'dashboard-nvim'}, { event = "VimEnter *" }, _G.packer_plugins)]]
-time([[Defining lazy-load event autocommands]], false)
-vim.cmd("augroup END")
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then
