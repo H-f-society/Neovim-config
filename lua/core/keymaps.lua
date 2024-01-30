@@ -38,6 +38,7 @@ keymap.set("n", "<leader>web", ":FloatermNew --autoclose=2 explorer %<CR>")
 -- run code
 keymap.set("n", "<leader>crun", ":FloatermNew! gcc % -o %< && %< <CR>")
 keymap.set("n", "<leader>java", ":FloatermNew! javac -encoding UTF-8 % && java %< && rm -f *.class <CR>")
+keymap.set("n", "<leader>jgc", ":FloatermNew! javac -encoding UTF-8 % && java -XX:+PrintGCDetails %< && rm -f *.class <CR>")
 keymap.set("n", "<leader>node", ":FloatermNew! node % <CR>")
 keymap.set("n", "<leader>ts", ":FloatermNew! ts-node % <CR>")
 keymap.set("n", "<leader>lua", ":FloatermNew! lua % <CR>")
