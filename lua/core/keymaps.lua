@@ -44,8 +44,6 @@ keymap.set("n", "<leader>ts", ":FloatermNew! ts-node % <CR>")
 keymap.set("n", "<leader>lua", ":FloatermNew! lua % <CR>")
 keymap.set("n", "<leader>py", ":FloatermNew! python % <CR>")
 keymap.set("n", "<leader>shell", ":FloatermNew! sh % <CR>")
-keymap.set("n", "<leader>ant", ":FloatermNew! ant -lib \"E:/svn/idmap5/lib\" -f % <CR>")
--- keymap.set("n", "<leader>ant", ":FloatermNew! ant -lib \"E:/jobFiles/00-code/lib\" -f % <CR>")
 
 -- symboles-outline
 keymap.set('n', '<leader>p', ':SymbolsOutline<CR>')
