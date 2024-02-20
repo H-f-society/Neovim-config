@@ -112,12 +112,24 @@ return require('packer').startup(function()
     use 'nvim-zh/colorful-winsep.nvim'
     use 'NvChad/nvim-colorizer.lua'
 
+    -- 花里胡哨的光标移动
     use { 'gen740/SmoothCursor.nvim',
         config = function()
             require('smoothcursor').setup()
         end
     }
-  
+    -- 滚动条插件
+    use "petertriho/nvim-scrollbar"
+    -- 小地图插件
+    use {
+        'gorbit99/codewindow.nvim',
+        config = function()
+            local codewindow = require('codewindow')
+            codewindow.setup()
+            codewindow.apply_default_keybinds()
+        end,
+    }
+
     -- if packer_bootstrap then
     --     require('packer').sync()
     -- end

@@ -33,6 +33,8 @@ require('plugins/colorizer')
 -- require('plugins/dap')
 -- require('plugins/vimspector')
 require('plugins/smoothCursor')
+require("plugins/scrollbar")
+-- require("plugins/codewindow")
 
 -- :Mason 安装语言自动补全
 -- PackerInstall PackerSync 安装插件
