@@ -111,6 +111,12 @@ return require('packer').startup(function()
 
     use 'nvim-zh/colorful-winsep.nvim'
     use 'NvChad/nvim-colorizer.lua'
+
+    use { 'gen740/SmoothCursor.nvim',
+        config = function()
+            require('smoothcursor').setup()
+        end
+    }
   
     -- if packer_bootstrap then
     --     require('packer').sync()
