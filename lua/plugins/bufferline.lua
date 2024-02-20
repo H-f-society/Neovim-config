@@ -82,7 +82,7 @@ require('bufferline').setup {
     show_buffer_icons = true, -- disable filetype icons for buffers
     --show_buffer_close_icons = true | false,
     show_buffer_close_icons = true,
-    show_buffer_default_icon = true,
+    -- show_buffer_default_icon = true,
     --show_close_icon = true | false,
     show_close_icon = false,
     --show_tab_indicators = true | false,

@@ -112,6 +112,7 @@ return require('packer').startup(function()
     use 'nvim-zh/colorful-winsep.nvim'
     use 'NvChad/nvim-colorizer.lua'
 
+    use 'yamatsum/nvim-cursorline'
     use 'gen740/SmoothCursor.nvim'  -- 花里胡哨的光标移动
     use "petertriho/nvim-scrollbar" -- 滚动条插件
     use 'gorbit99/codewindow.nvim'    -- 小地图插件
