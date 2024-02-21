@@ -38,8 +38,8 @@ require("leetcode").setup {
         dir = "row", ---@type lc.direction
 
         size = { ---@type lc.size
-            width = "90%",
-            height = "75%",
+            width = "80%",
+            height = "60%",
         },
 
         result = {

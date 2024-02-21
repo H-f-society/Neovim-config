@@ -130,13 +130,13 @@ return require('packer').startup(function()
             "nvim-tree/nvim-web-devicons"
         }
     }
-    use {
-        'Dhanus3133/LeetBuddy.nvim',
-        requires = {
-            "nvim-lua/plenary.nvim",
-            "nvim-telescope/telescope.nvim"
-        }
-    }
+    -- use {
+    --     'Dhanus3133/LeetBuddy.nvim',
+    --     requires = {
+    --         "nvim-lua/plenary.nvim",
+    --         "nvim-telescope/telescope.nvim"
+    --     }
+    -- }
 
     -- if packer_bootstrap then
     --     require('packer').sync()
