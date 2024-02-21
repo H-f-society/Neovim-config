@@ -1,3 +1,5 @@
+-- 配置帮助文档 :h bufferline-configuration
+
 vim.opt.termguicolors = true
 
 require('bufferline').setup {

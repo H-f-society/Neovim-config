@@ -37,6 +37,10 @@ require('plugins/smoothCursor')
 require("plugins/scrollbar")
 -- require("plugins/codewindow")
 
+require("plugins/leetcode")
+-- leetBuddy作者不再维护了
+-- require("plugins/leetBuddy")
+
 -- :Mason 安装语言自动补全
 -- PackerInstall PackerSync 安装插件
 -- :TSUpdate、TSInstall java 语法高亮

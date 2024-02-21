@@ -117,6 +117,27 @@ return require('packer').startup(function()
     use "petertriho/nvim-scrollbar" -- 滚动条插件
     use 'gorbit99/codewindow.nvim'    -- 小地图插件
 
+    use {
+        'kawre/leetcode.nvim',
+        requires = {
+            "nvim-telescope/telescope.nvim",
+            "nvim-lua/plenary.nvim", -- required by telescope
+            "MunifTanjim/nui.nvim",
+
+            -- optional
+            "nvim-treesitter/nvim-treesitter",
+            "rcarriga/nvim-notify",
+            "nvim-tree/nvim-web-devicons"
+        }
+    }
+    use {
+        'Dhanus3133/LeetBuddy.nvim',
+        requires = {
+            "nvim-lua/plenary.nvim",
+            "nvim-telescope/telescope.nvim"
+        }
+    }
+
     -- if packer_bootstrap then
     --     require('packer').sync()
     -- end
