@@ -85,12 +85,12 @@ return require('packer').startup(function()
 
     -- use 'glepnir/dashboard-nvim'
     use 'nvimdev/dashboard-nvim'
-    use {
-        -- 'glepnir/dashboard-nvim', -- neovim启动页
-        'nvimdev/dashboard-nvim',
-        event = 'VimEnter',
-        requires = { 'nvim-tree/nvim-web-devicons' }
-    }
+    -- use {
+    --     -- 'glepnir/dashboard-nvim', -- neovim启动页
+    --     'nvimdev/dashboard-nvim',
+    --     event = 'VimEnter',
+    --     requires = { 'nvim-tree/nvim-web-devicons' }
+    -- }
 
     -- 代码块对齐线 
     use "lukas-reineke/indent-blankline.nvim"
@@ -114,7 +114,7 @@ return require('packer').startup(function()
 
     use 'yamatsum/nvim-cursorline'
     use 'gen740/SmoothCursor.nvim'  -- 花里胡哨的光标移动
-    use "petertriho/nvim-scrollbar" -- 滚动条插件
+    use "petertriho/nvim-scrollbar" -- 滚动条插件(含异常代码提示)
     use 'gorbit99/codewindow.nvim'    -- 小地图插件
 
     use {
@@ -130,13 +130,6 @@ return require('packer').startup(function()
             "nvim-tree/nvim-web-devicons"
         }
     }
-    -- use {
-    --     'Dhanus3133/LeetBuddy.nvim',
-    --     requires = {
-    --         "nvim-lua/plenary.nvim",
-    --         "nvim-telescope/telescope.nvim"
-    --     }
-    -- }
 
     -- if packer_bootstrap then
     --     require('packer').sync()
