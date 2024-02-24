@@ -13,11 +13,15 @@ keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
 -------- 正常模式 --------
 -- 窗口
+keymap.set("n", "<leader>nn", ":tabedit<Return>")
 keymap.set("n", "<leader>sv", "<C-w>v") -- 水平新建窗口
 keymap.set("n", "<leader>sh", "<C-w>s") -- 垂直新建窗口
 
 -- 取消高亮
 keymap.set("n", "<leader>nh", ":nohl<CR>")
+
+-- 全选
+keymap.set("n", "<C-a>", "gg<S-v>G")
 
 -------- 插件 --------
 -- nvim-tree
