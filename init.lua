@@ -32,7 +32,6 @@ require('plugins/colorizer')
 -- require('plugins/java')
 -- require('plugins/dap')
 -- require('plugins/vimspector')
--- require("plugins/mini") -- 有点卡顿
 require("plugins/cursorline")
 require('plugins/smoothCursor')
 require("plugins/scrollbar")
