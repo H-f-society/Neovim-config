@@ -8,19 +8,19 @@ require("mason").setup({
   }
 })
 
-require("mason-lspconfig").setup({
-  -- 确保安装，根据需要填写
-  ensure_installed = {
-    -- "sumneko_lua",
-    "clangd",
-    "jdtls", -- java
-    "html",
-    "cssls", "cssmodules_ls", -- css
-    "quick_lint_js", "tsserver", "vtsls", -- js
-    "sqlls", -- "sqls",
-    "lemminx", -- xml
-  },
-})
+-- require("mason-lspconfig").setup({
+--   -- 确保安装，根据需要填写
+--   ensure_installed = {
+--     -- "sumneko_lua",
+--     "clangd",
+--     "jdtls", -- java
+--     "html",
+--     "cssls", "cssmodules_ls", -- css
+--     "quick_lint_js", "tsserver", "vtsls", -- js
+--     "sqlls", -- "sqls",
+--     "lemminx", -- xml
+--   },
+-- })
 
 local capabilities = require('cmp_nvim_lsp').default_capabilities()
 

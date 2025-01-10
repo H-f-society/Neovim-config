@@ -132,6 +132,13 @@ return require('packer').startup(function()
         }
     }
 
+    -- insert-model/中文输入法状态下, esc切换到normal-model
+    use {'kevinhwang91/nvim-ibus-sw', event = 'InsertEnter',
+        config = function()
+            require('ibus-sw').setup()
+        end
+    }
+
     -- if packer_bootstrap then
     --     require('packer').sync()
     -- end

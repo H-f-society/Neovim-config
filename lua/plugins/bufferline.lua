@@ -35,7 +35,7 @@ require('bufferline').setup {
         icon = '|',
         style = 'icon'
     },
-    buffer_close_icon = "",
+    buffer_close_icon = "",
     modified_icon = "●",
     close_icon = "",
     left_trunc_marker = "",
@@ -55,7 +55,7 @@ require('bufferline').setup {
     tab_size = 15,
     --diagnostics = false | "nvim_lsp" | "coc",
     diagnostics = "nvim_lsp",
-    diagnostics_update_in_insert = true,
+    -- diagnostics_update_in_insert = true,
     --[[diagnostics_indicator = function(count, level, diagnostics_dict, context)
       return "(" .. count .. ")"
     end,]]

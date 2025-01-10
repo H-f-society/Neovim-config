@@ -26,7 +26,7 @@ require('plugins/transparent')
 require('plugins/blankline')
 require('plugins/guessIndent')
 -- require('plugins/symbols-outline')
-require('plugins/colorful-winsep')
+-- require('plugins/colorful-winsep')
 require('plugins/colorizer')
 -- require('plugins/jdtls')
 -- require('plugins/java')
@@ -35,9 +35,9 @@ require('plugins/colorizer')
 require("plugins/cursorline")
 require('plugins/smoothCursor')
 require("plugins/scrollbar")
--- require("plugins/codewindow")
+require("plugins/codewindow")
 
-require("plugins/leetcode")
+-- require("plugins/leetcode")
 
 -- :Mason 安装语言自动补全
 -- PackerInstall PackerSync 安装插件
