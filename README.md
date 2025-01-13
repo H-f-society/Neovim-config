@@ -8,9 +8,9 @@
   ```yaml
   patch:
     key_binder:
-    bindings:
-      # ESC，切换英文
-      - { when: always, accept: Release+Escape, toggle: ascii_mode }
+      bindings:
+        # ESC，切换英文
+        - { when: always, accept: Release+Escape, toggle: ascii_mode }
 
   ```
 
